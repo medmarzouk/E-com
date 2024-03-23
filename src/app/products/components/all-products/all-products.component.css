@@ -1,0 +1,17 @@
+.container {
+    margin: 0 auto;
+}
+app-select{
+    font-family: "Georgia", serif;
+}
+video{
+    width: 30%;
+    height: 100%;
+    top: 10px;
+    left: auto;
+}
+.centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

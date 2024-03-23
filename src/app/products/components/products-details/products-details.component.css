@@ -1,0 +1,32 @@
+.box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info li {
+    margin-bottom: 10px;
+}
+
+.info li strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+img {
+    width: 150px;
+    
+    border-radius: 10px;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+
+  

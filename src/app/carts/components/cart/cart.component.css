@@ -1,0 +1,73 @@
+/* Add some general styles for better layout and spacing */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: "Georgia", serif;
+}
+
+.cartBox {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+span{
+    font-family: "Georgia", serif;
+    background-color:aliceblue;
+}
+
+h1.text-danger {
+    color: #35dc5f;
+    font-family: "Impact", fantasy;
+}
+
+.headCart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-header {
+    cursor: pointer;
+}
+
+.table {
+    width: 100%;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #e73131;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.alert-success {
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .cartBox {
+        padding: 10px;
+    }
+}
